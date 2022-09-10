@@ -5,11 +5,11 @@ import creational.builder.cars.Car;
 public class TripComputer {
     private Car car;
 
-    public void setCar(Car car){
+    public void setCar(Car car) {
         this.car = car;
     }
 
-    public void ShowFuelLevel(){
-        System.out.println("Fuel level: " 5);
+    public void showFuelLevel() {
+        System.out.println("Fuel level: " + car.getFuel());
     }
 }

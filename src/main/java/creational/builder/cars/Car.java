@@ -14,7 +14,6 @@ public class Car {
     private final GPSNavigator gpsNavigator;
     private double fuel = 0;
 
-
     public Car(CarType carType, int seats, Engine engine, Transmission transmission,
                TripComputer tripComputer, GPSNavigator gpsNavigator) {
         this.carType = carType;
@@ -52,6 +51,7 @@ public class Car {
     public GPSNavigator getGpsNavigator() {
         return gpsNavigator;
     }
+
 
     public double getFuel() {
         return fuel;
