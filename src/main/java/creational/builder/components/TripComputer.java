@@ -10,6 +10,6 @@ public class TripComputer {
     }
 
     public void ShowFuelLevel(){
-        System.out.println("Fuel level: " );
+        System.out.println("Fuel level: " 5);
     }
 }
