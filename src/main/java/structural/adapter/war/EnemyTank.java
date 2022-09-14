@@ -1,5 +1,7 @@
 package structural.adapter.war;
 
+import structural.adapter.war.target.EnemyAttacker;
+
 import java.util.Random;
 
 public class EnemyTank implements EnemyAttacker {
@@ -9,7 +11,7 @@ public class EnemyTank implements EnemyAttacker {
     @Override
     public void fireWeapon() {
         int attackDamage = generator.nextInt(10) + 1;
-        System.out.println("Enemy Tank does " + attackDamage + " damage");
+        System.out.println("Enemy Tank does " + attackDamage + " damage.");
     }
 
     @Override

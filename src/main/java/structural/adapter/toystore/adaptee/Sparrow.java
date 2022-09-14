@@ -1,4 +1,6 @@
-package structural.adapter.toystore;
+package structural.adapter.toystore.adaptee;
+
+import structural.adapter.toystore.adaptee.Bird;
 
 public class Sparrow implements Bird {
     @Override

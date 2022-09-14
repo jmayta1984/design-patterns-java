@@ -1,4 +1,4 @@
-package structural.adapter.war;
+package structural.adapter.war.adaptee;
 
 import java.util.Random;
 
@@ -19,6 +19,6 @@ public class EnemyRobot {
     }
 
     public void reactToHuman(String driverName){
-        System.out.println("Enemy Robot tramps on " + driverName);
+        System.out.println("Enemy Robot tramps on " + driverName + ".");
     }
 }

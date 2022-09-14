@@ -1,4 +1,4 @@
-package structural.adapter.war;
+package structural.adapter.war.target;
 
 public interface EnemyAttacker {
 
