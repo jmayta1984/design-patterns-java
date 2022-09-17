@@ -1,4 +1,4 @@
-package structural.bridge;
+package structural.bridge.example01;
 
 public abstract class Shape {
     protected DrawAPI drawAPI;
