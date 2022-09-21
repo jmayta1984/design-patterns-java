@@ -1,8 +1,9 @@
 package behavioral.chain;
 
-public class Dollar10Dispense implements DispenseChain{
+public class Dollar10Dispenser implements DispenseChain {
 
     private DispenseChain chain;
+
     @Override
     public void setNextChain(DispenseChain nextChain) {
         this.chain = nextChain;
@@ -14,14 +15,14 @@ public class Dollar10Dispense implements DispenseChain{
             int num = currency.getAmount() / 10;
             int remainder = currency.getAmount() % 10;
 
-            System.out.println("Dispensing " + num + "10$ note");
+            System.out.println("Dispensing " + num + " 10$ note");
 
-            if (remainder != 0){
+            if (remainder != 0)
                 this.chain.dispense(new Currency(remainder));
-            } else {
-                this.chain.dispense(currency);
-            }
-
+        } else {
+            this.chain.dispense(currency);
         }
+
     }
 }
+
