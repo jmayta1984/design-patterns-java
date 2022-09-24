@@ -1,4 +1,4 @@
-package behavioral.command;
+package behavioral.command.example01;
 
 import java.util.ArrayList;
 import java.util.List;
